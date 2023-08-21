@@ -1,4 +1,4 @@
-package org.example;
+package ke.co.saf.fservice;
 
 // Press ⇧ twice to open the Search Everywhere dialog and type `show whitespaces`,
 // then press Enter. You can now see whitespace characters in your code.
