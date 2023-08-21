@@ -6,7 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="c934e35f-6914-493c-a4dc-e841deaf3bcb" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ke/co/saf/fservice/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ke/co/saf/fservice/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ke/co/saf/fservice/App.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -62,7 +62,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1692625381369</updated>
-      <workItem from="1692625382621" duration="3919000" />
+      <workItem from="1692625382621" duration="4721000" />
     </task>
     <servers />
   </component>
@@ -73,7 +73,7 @@
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/ke/co/saf/fservice/Main.java</url>
+          <url>file://$PROJECT_DIR$/src/main/java/ke/co/saf/fservice/App.java</url>
           <line>15</line>
           <option name="timeStamp" value="1" />
         </line-breakpoint>
