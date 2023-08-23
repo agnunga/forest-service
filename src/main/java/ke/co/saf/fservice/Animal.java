@@ -4,9 +4,17 @@ public class Animal {
 
     private int id;
     private String name;
-    private boolean EndangeredAnimal;
+    private boolean endangeredAnimal;
     private Health health;
     private Age age;
+
+    public Animal(int id, String name, boolean endangeredAnimal, Health health, Age age) {
+        this.id = id;
+        this.name = name;
+        this.endangeredAnimal = endangeredAnimal;
+        this.health = health;
+        this.age = age;
+    }
 
     public int getId() {
         return id;
@@ -25,11 +33,11 @@ public class Animal {
     }
 
     public boolean isEndangeredAnimal() {
-        return EndangeredAnimal;
+        return endangeredAnimal;
     }
 
     public void setEndangeredAnimal(boolean endangeredAnimal) {
-        EndangeredAnimal = endangeredAnimal;
+        endangeredAnimal = endangeredAnimal;
     }
 
     public Health getHealth() {

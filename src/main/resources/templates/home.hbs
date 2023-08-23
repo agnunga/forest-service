@@ -3,8 +3,31 @@
 {{/partial}}
 
 {{#partial "content"}}
-    <h2>Welcome to Douglas Fir Forest Service!</h2>
-    <h3>List of animals</h3>
 
 {{/partial}}
 {{> layout.hbs}}
+
+<h2>Welcome to Douglas Fir Forest Service!</h2>
+<h3>List of animals</h3>
+<table class="table">
+    <thead>
+    <tr>
+        <th scope="col">#</th>
+        <th scope="col">Name</th>
+        <th scope="col">Endangered</th>
+        <th scope="col">Health</th>
+        <th scope="col">Age</th>
+    </tr>
+    </thead>
+    <tbody>
+    {{#each animals}}
+        <tr>
+            <th scope="row">1</th>
+            <td>{{ name }}</td>
+            <td>{{ endangeredAnimal }}</td>
+            <td>{{ health }}</td>
+            <td>{{ age }}</td>
+        </tr>
+    {{/each}}
+    </tbody>
+</table>
