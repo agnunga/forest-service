@@ -1,0 +1,32 @@
+{{#partial "title" }}
+    Forest Service | Welcome
+{{/partial}}
+
+{{name}}
+
+{{#partial "content"}}
+
+    <h1>Add Animal </h1>
+    <form action='/add-animal' method="post">
+        <div class="form-group">
+            <label for="name">Name</label>
+            <input id="name" name="name" class="form-control" type="text">
+        </div>
+        <div class="form-group">
+            <label for="endangeredAnimal">Endangered Animal</label>
+            <input id="endangeredAnimal" name="endangeredAnimal" value="false" class="form-control" type="text">
+        </div>
+        <div class="form-group">
+            <label for="health">Health</label>
+            <input id="health" name="health" value="HEALTHY" class="form-control" type="text">
+        </div>
+
+        <div class="form-group">
+            <label for="age">Age</label>
+            <input id="age" name="age" value="ADULT" class="form-control" type="text">
+        </div>
+
+        <button type="submit" class="btn">Submit</button>
+    </form>
+{{/partial}}
+{{> layout.hbs}}
