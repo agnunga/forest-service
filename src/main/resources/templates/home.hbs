@@ -7,8 +7,7 @@
 {{/partial}}
 {{> layout.hbs}}
 
-<h2>Welcome to Douglas Fir Forest Service!</h2>
-<h3>List of animals</h3>
+<h3>Welcome to Douglas Fir Forest Service! List of animals</h3>
 <table class="table">
     <thead>
     <tr>
@@ -17,7 +16,8 @@
         <th scope="col">Endangered</th>
         <th scope="col">Health</th>
         <th scope="col">Age</th>
-        <th scope="col">id</th>
+        <th scope="col">Edit</th>
+        <th scope="col">Sighting</th>
     </tr>
     </thead>
     <tbody>
@@ -29,9 +29,12 @@
             <td>{{ health }}</td>
             <td>{{ age }}</td>
             <td>
-                <a href="#" class="view" title="View" data-toggle="tooltip"><i class="material-icons">&#xE417;</i></a>
-                <a href="#" class="edit" title="Edit" data-toggle="tooltip"><i class="material-icons">&#xE254;</i></a>
-                <a href="#" class="delete" title="Delete" data-toggle="tooltip"><i class="material-icons">&#xE872;</i></a>
+                <a href="./add-animal?id={{ id }}" class="edit" title="Edit Animal" data-toggle="tooltip"><i class="material-icons">&#xE254;</i></a>
+                <a href="./delete-animal?id={{ id }}" class="delete" title="Delete Animal" data-toggle="tooltip"><i class="material-icons">&#xE872;</i></a>
+            </td>
+            <td>
+                <a href="./add-sighting?id={{ id }}" class="view" title="Add Sighting" data-toggle="tooltip"><i class="material-icons">&#xe145;</i></a>
+                <a href="./list-sightings?id={{ id }}" class="view" title="View Sighting(s)" data-toggle="tooltip"><i class="material-icons">&#xE417;</i></a>
             </td>
         </tr>
     {{/each}}
