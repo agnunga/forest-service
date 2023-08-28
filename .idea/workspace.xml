@@ -6,10 +6,11 @@
   <component name="ChangeListManager">
     <list default="true" id="c934e35f-6914-493c-a4dc-e841deaf3bcb" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ke/co/saf/fservice/Animal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ke/co/saf/fservice/models/Animal.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/ke/co/saf/fservice/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ke/co/saf/fservice/App.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ke/co/saf/fservice/Sighting.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ke/co/saf/fservice/models/Sighting.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ke/co/saf/fservice/repository/AnimalRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ke/co/saf/fservice/repository/AnimalRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ke/co/saf/fservice/service/AnimalService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ke/co/saf/fservice/service/AnimalService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/home.hbs" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/home.hbs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/layout.hbs" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/layout.hbs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -80,6 +81,10 @@
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src/main/resources/templates" />
     </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="ke.co.saf.fservice.service" />
+      <recent name="ke.co.saf.fservice.repository" />
+    </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -90,7 +95,7 @@
       <option name="presentableId" value="Default" />
       <updated>1692625381369</updated>
       <workItem from="1692625382621" duration="9903000" />
-      <workItem from="1692808091322" duration="11141000" />
+      <workItem from="1692808091322" duration="16665000" />
     </task>
     <servers />
   </component>

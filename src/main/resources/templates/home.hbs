@@ -17,16 +17,22 @@
         <th scope="col">Endangered</th>
         <th scope="col">Health</th>
         <th scope="col">Age</th>
+        <th scope="col">id</th>
     </tr>
     </thead>
     <tbody>
     {{#each animals}}
         <tr>
-            <th scope="row">1</th>
+            <th scope="row">{{ id }}</th>
             <td>{{ name }}</td>
             <td>{{ endangeredAnimal }}</td>
             <td>{{ health }}</td>
             <td>{{ age }}</td>
+            <td>
+                <a href="#" class="view" title="View" data-toggle="tooltip"><i class="material-icons">&#xE417;</i></a>
+                <a href="#" class="edit" title="Edit" data-toggle="tooltip"><i class="material-icons">&#xE254;</i></a>
+                <a href="#" class="delete" title="Delete" data-toggle="tooltip"><i class="material-icons">&#xE872;</i></a>
+            </td>
         </tr>
     {{/each}}
     </tbody>
