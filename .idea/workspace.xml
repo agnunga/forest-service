@@ -6,8 +6,11 @@
   <component name="ChangeListManager">
     <list default="true" id="c934e35f-6914-493c-a4dc-e841deaf3bcb" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/add-animal.hbs" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/add-animal.hbs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/add-sighting.hbs" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/add-sighting.hbs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/templates/home.hbs" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/home.hbs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/templates/layout.hbs" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/layout.hbs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/list-sighting.hbs" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/list-sighting.hbs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -92,7 +95,7 @@
       <option name="presentableId" value="Default" />
       <updated>1692625381369</updated>
       <workItem from="1692625382621" duration="9903000" />
-      <workItem from="1692808091322" duration="17867000" />
+      <workItem from="1692808091322" duration="20560000" />
     </task>
     <servers />
   </component>

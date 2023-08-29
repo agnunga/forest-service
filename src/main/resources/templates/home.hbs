@@ -2,6 +2,8 @@
     Forest Service | Welcome
 {{/partial}}
 
+{{#partial "isActive" }}active{{/partial}}
+
 {{#partial "content"}}
 
 {{/partial}}
@@ -34,7 +36,7 @@
             </td>
             <td>
                 <a href="./add-sighting?id={{ id }}" class="view" title="Add Sighting" data-toggle="tooltip"><i class="material-icons">&#xe145;</i></a>
-                <a href="./list-sightings?id={{ id }}" class="view" title="View Sighting(s)" data-toggle="tooltip"><i class="material-icons">&#xE417;</i></a>
+                <a href="./list-sighting?id={{ id }}" class="view" title="View Sighting(s)" data-toggle="tooltip"><i class="material-icons">&#xE417;</i></a>
             </td>
         </tr>
     {{/each}}
