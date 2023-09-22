@@ -62,6 +62,17 @@ public class App {
             return new ModelAndView(model, "add-animal.hbs");
         }, new HandlebarsTemplateEngine());
 
+        put("/update-animal", (request, response) -> {
+            Map<String, Object> model = new HashMap<>();
+
+            Animal animal = new Animal(request.queryParams("name"), Boolean.parseBoolean(request.queryParams("endangeredAnimal")), Health.valueOf(request.queryParams("health")), Age.valueOf(request.queryParams("age")));
+            animal.setId(Long.parseLong(request.queryParams("id")));
+            animal = animalService.update(animal);
+            model.put("name", "Animal: " + animal.getName() + " updated successfully!");
+
+            return new ModelAndView(model, "add-animal.hbs");
+        }, new HandlebarsTemplateEngine());
+
         get("/list-sighting", (request, response) -> {
             Map<String, Object> model = new HashMap<>();
             model.put("sightings", sightingService.findAll());
